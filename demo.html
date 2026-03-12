@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szijea - 演示中心</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* 演示中心专属样式 */
+        .demo-section {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 5%;
+        }
+        .demo-section h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .demo-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .demo-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 1.5rem;
+        }
+        .demo-card h3 {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .demo-card h3 i {
+            color: #3498db;
+        }
+        .demo-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        .demo-card a {
+            display: inline-block;
+            padding: 0.6rem 1.5rem;
+            background-color: #3498db;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .demo-card a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">szijea 代码库</div>
+    <div class="menu">
+        <a href="index.html">首页</a>
+        <a href="code.html">代码库</a>
+        <a href="demo.html">演示中心</a>
+        <a href="about.html">关于我</a>
+        <a href="custom.html">定制咨询</a>
+    </div>
+</nav>
+
+<section class="demo-section">
+    <h2>所有项目在线演示</h2>
+    <div class="demo-list">
+        <!-- 演示项模板：复制替换即可 -->
+        <div class="demo-card">
+            <h3><i class="fas fa-cash-register"></i> SpringBoot收银系统（学生毕设版）</h3>
+            <p>商品管理/订单管理/会员管理/收银台核心功能</p>
+            <a href="https://pos.szijea.github.io" target="_blank">点击进入演示 →</a>
+        </div>
+        <div class="demo-card">
+            <h3><i class="fas fa-tachometer-alt"></i> SpringBoot通用后台管理系统</h3>
+            <p>用户/角色/权限/日志/系统监控核心功能</p>
+            <a href="https://admin.szijea.github.io" target="_blank">点击进入演示 →</a>
+        </div>
+        <div class="demo-card">
+            <h3><i class="fas fa-linux"></i> Linux服务器运维工具箱</h3>
+            <p>端口检测/进程管理/日志查看/磁盘清理/自动备份</p>
+            <a href="https://tool.szijea.github.io" target="_blank">点击进入演示 →</a>
+        </div>
+        <div class="demo-card">
+            <h3><i class="fas fa-spider"></i> Python通用爬虫框架</h3>
+            <p>多线程/异步爬取，反爬处理，支持多格式存储</p>
+            <a href="https://crawler.szijea.github.io" target="_blank">点击进入演示 →</a>
+        </div>
+    </div>
+</section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

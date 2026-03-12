@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szijea - 关于我</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* 关于我专属样式 */
+        .about-section {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 5%;
+        }
+        .about-header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+        .about-avatar {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #f0f2f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #3498db;
+            flex-shrink: 0;
+        }
+        .about-info h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .about-info p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        .about-info .contact {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .about-info .contact a {
+            color: #3498db;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .about-content h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #3498db;
+            padding-left: 1rem;
+        }
+        .about-content .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .about-content .skill-tag {
+            padding: 0.6rem 1.2rem;
+            background-color: #e8f4fd;
+            color: #3498db;
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+        .about-content p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">szijea 代码库</div>
+    <div class="menu">
+        <a href="index.html">首页</a>
+        <a href="code.html">代码库</a>
+        <a href="demo.html">演示中心</a>
+        <a href="about.html">关于我</a>
+        <a href="custom.html">定制咨询</a>
+    </div>
+</nav>
+
+<section class="about-section">
+    <div class="about-header">
+        <div class="about-avatar">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="about-info">
+            <h2>szijea</h2>
+            <p>全栈开发工程师 | 专注实用型项目开发</p>
+            <p>5年+开发经验，擅长Java/Python/Vue/运维工具开发</p>
+            <div class="contact">
+                <a href="mailto:your@email.com"><i class="fas fa-envelope"></i> 邮箱</a>
+                <a href="https://github.com/szijea" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="tel:138xxxx8888"><i class="fas fa-phone"></i> 电话</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <h3>技术栈</h3>
+        <div class="skill-list">
+            <div class="skill-tag">Java/SpringBoot/MyBatis-Plus</div>
+            <div class="skill-tag">Python/Scrapy/Pandas</div>
+            <div class="skill-tag">Vue3/Vite/ElementPlus</div>
+            <div class="skill-tag">Linux/Docker/Shell</div>
+            <div class="skill-tag">MySQL/Redis/MongoDB</div>
+            <div class="skill-tag">爬虫/自动化/运维工具</div>
+        </div>
+
+        <h3>关于我</h3>
+        <p>专注于开发「开箱即用」的实用型项目，覆盖毕设模板、商用后台、运维工具等方向，所有项目均经过实际场景验证，可直接复用或快速定制。</p>
+        <p>坚持「简单、高效、实用」的开发理念，拒绝过度封装，让新手也能轻松部署和修改，同时提供定制化开发服务，解决个性化需求。</p>
+
+        <h3>开发理念</h3>
+        <p>1. 优先保证项目的实用性和可维护性，避免华而不实的功能；</p>
+        <p>2. 代码注释清晰，部署文档详细，降低使用门槛；</p>
+        <p>3. 持续迭代优化现有项目，适配最新技术栈和使用场景。</p>
+    </div>
+</section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szijea - 定制咨询</title>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        /* 定制咨询专属样式 */
+        .custom-section {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 5%;
+        }
+        .custom-section h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .service-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 2rem;
+        }
+        .service-card i {
+            font-size: 2rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+        .service-card h3 {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .service-card ul {
+            color: #666;
+            padding-left: 1.5rem;
+            line-height: 1.8;
+        }
+        .service-card ul li {
+            margin-bottom: 0.5rem;
+        }
+        .custom-price {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 2rem;
+            margin-bottom: 3rem;
+        }
+        .custom-price h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #3498db;
+            padding-left: 1rem;
+        }
+        .custom-price p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #e8f4fd 0%, #f0f8fb 100%);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .contact-box h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        .contact-box p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        .contact-box a {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background-color: #3498db;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+        .contact-box a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">szijea 代码库</div>
+    <div class="menu">
+        <a href="index.html">首页</a>
+        <a href="code.html">代码库</a>
+        <a href="demo.html">演示中心</a>
+        <a href="about.html">关于我</a>
+        <a href="custom.html">定制咨询</a>
+    </div>
+</nav>
+
+<section class="custom-section">
+    <h2>定制开发服务</h2>
+
+    <div class="service-list">
+        <div class="service-card">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>毕设定制</h3>
+            <ul>
+                <li>基于SpringBoot/Vue/Python的毕设开发</li>
+                <li>需求分析 → 框架搭建 → 功能实现 → 论文指导</li>
+                <li>支持查重修改、答辩讲解</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-store"></i>
+            <h3>商用项目定制</h3>
+            <ul>
+                <li>后台管理系统、收银系统、爬虫工具等</li>
+                <li>按需定制功能，支持部署上线</li>
+                <li>提供1个月免费维护</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <i class="fas fa-tools"></i>
+            <h3>运维工具定制</h3>
+            <ul>
+                <li>Linux自动化脚本、监控工具、数据备份工具</li>
+                <li>适配企业现有环境，降低运维成本</li>
+                <li>提供使用文档和操作培训</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="custom-price">
+        <h3>报价说明</h3>
+        <p>1. 毕设定制：根据功能复杂度，报价800-3000元不等；</p>
+        <p>2. 商用项目定制：按功能模块报价，5000元起，具体以需求文档为准；</p>
+        <p>3. 运维工具定制：按开发工时报价，200元/工时，预估5-20工时；</p>
+        <p>4. 所有定制项目均提供详细的开发文档和部署教程，支持远程协助部署。</p>
+    </div>
+
+    <div class="contact-box">
+        <h3>立即咨询</h3>
+        <p>扫码/加微信/发邮箱，详细沟通需求，1小时内回复</p>
+        <a href="tel:138xxxx8888">联系我 →</a>
+    </div>
+</section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
